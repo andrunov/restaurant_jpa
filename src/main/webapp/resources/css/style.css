@@ -1,0 +1,34 @@
+/*styles*/
+
+.isAdmin {
+    color: black;
+    text-decoration: underline;
+}
+
+.isUser {
+    color: #72a2be;
+}
+
+.disabled {
+    color: dimgray;
+    text-decoration: line-through;
+}
+
+.error, .message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+}
+
+.message {
+    color: #2f9635;
+    background-color: #c6fbc2;
+    border: 1px solid #9feba6;
+}

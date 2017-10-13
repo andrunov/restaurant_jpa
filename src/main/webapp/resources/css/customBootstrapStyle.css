@@ -1,0 +1,76 @@
+/*Bootstrap customise style*/
+
+/*background and border navigation bar color*/
+.navbar-default {
+background-color: #72a2be;
+border-color: #436d96;
+top: 5px;
+}
+
+/*color of brand name text*/
+.navbar-default .navbar-brand {
+    color: #f1a195;
+}
+
+/*color of footer elements*/
+.navbar-link{
+    background-color: #bed1dc;
+    border-color: #5f62a0;
+}
+
+/*color of brand name text in mouse focus*/
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #97ecf1;
+}
+
+/*color of navigation bar items*/
+.navbar-default .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+
+/*color of navigation bar items in mouse focus*/
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #d1ffed;
+}
+
+/*color of active navigation bar items and in mouse focus*/
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #d1ffed;
+    background-color: #649cc7;
+}
+
+/*panel border and header color*/
+.panel-info{
+    border-color:#72a2be;
+}
+.panel-info>.panel-heading{
+    background-color:#bed1dc;
+}
+
+
+/*Jumbotron color*/
+.jumbotron {
+    background-color: #c2d6e1;
+    border-color: #5f62a0;
+}
+
+/*color of table row in focus*/
+.table-hover tbody tr:hover {
+    background-color: #dbe4f4;
+}
+
+/*modal window background color*/
+.modal-content{
+    background-color: #c2d6e1;
+    border-color: #436d96;
+}
+
+/*modal window header text color*/
+.modal-header .modal-title{
+    color: #4096c1;
+}
+
