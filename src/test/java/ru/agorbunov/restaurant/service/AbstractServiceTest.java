@@ -8,25 +8,21 @@ import org.junit.runner.Description;
 import org.junit.runner.RunWith;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.jdbc.Sql;
 import org.springframework.test.context.jdbc.SqlConfig;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import ru.agorbunov.restaurant.ActiveDbProfileResolver;
 
 import java.util.concurrent.TimeUnit;
 
 /**
  * Created by Admin on 15.02.2017.
  */
-//// TODO: 24.02.2017 remove profiles before production
 @ContextConfiguration({
         "classpath:spring/spring-app.xml",
         "classpath:spring/spring-db.xml"
 })
 @RunWith(SpringJUnit4ClassRunner.class)
-@ActiveProfiles(resolver = ActiveDbProfileResolver.class)
 @Sql(scripts = "classpath:db/populateDBforTests.sql", config = @SqlConfig(encoding = "UTF-8"))
 public abstract class AbstractServiceTest {
 

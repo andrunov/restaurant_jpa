@@ -1,7 +1,6 @@
 package ru.agorbunov.restaurant.model.jpa;
 
 import java.io.Serializable;
-// TODO: 16.05.2017 remove from jdbc version
 
 /**
  * Class use as Id in many-to-mani relationship between Order and Dish

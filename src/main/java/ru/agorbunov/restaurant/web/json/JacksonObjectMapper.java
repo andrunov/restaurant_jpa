@@ -21,7 +21,6 @@ public class JacksonObjectMapper  extends ObjectMapper {
     }
 
     private JacksonObjectMapper() {
-        // TODO: 08.10.2017 remove hibernate5 before jdbc production
         registerModule(new Hibernate5Module());
 
         /*customise LocalDateTime serialise-deserialize*/
