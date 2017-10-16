@@ -6,7 +6,6 @@ and bootstrap customise files --%>
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <link rel="shortcut icon" href="resources/pictures/favicon.ico">
 
 <%--<link rel="stylesheet" href="resources/css/style.css">--%>
     <link rel="stylesheet" href="webjars/bootstrap/3.3.7-1/css/bootstrap.min.css">
@@ -15,6 +14,7 @@ and bootstrap customise files --%>
     <link rel="stylesheet" href="webjars/datetimepicker/2.5.4/jquery.datetimepicker.css">
     <link rel="stylesheet" type="text/css" href="resources/css/customBootstrapStyle.css">
     <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+    <link rel="shortcut icon" href="resources/pictures/ready.png">
 
     <!--http://stackoverflow.com/a/24070373/548473-->
     <script type="text/javascript" src="webjars/jquery/3.1.1-1/jquery.min.js" defer></script>
